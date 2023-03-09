@@ -1,5 +1,24 @@
+/*GENERALI*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+.whiteFont{
+    color: white;
+}
+.Flex{display: flex;}
+.FEndContent{justify-content: flex-end;}
+
+/*HEADER*/
+header{background-color: black;}
+.ContainerHeader{
+    width: 100%;
+    height: 70px;
+}
+.BOpacity{
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    margin-top: 3px;
 }
