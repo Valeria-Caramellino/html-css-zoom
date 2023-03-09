@@ -9,7 +9,9 @@
 }
 .Flex{display: flex;}
 .FEndContent{justify-content: flex-end;}
-
+.FWrap{flex-wrap: wrap;}
+.FJcontent{justify-content: center;}
+.w100 {width: 100%;}
 /*HEADER*/
 header{background-color: black;}
 .ContainerHeader{
@@ -21,4 +23,29 @@ header{background-color: black;}
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 5px;
     margin-top: 3px;
+}
+/*MAIN*/
+main{
+    background-color: black;
+    width: 100%;
+    height: calc( 100vh - 170px);
+}
+.ContainerMain{
+    width: 90%;
+    height: calc( 100vh - 170px );
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+.BoxImg{
+    overflow: hidden;
+    height: calc(100% / 5 );
+    width: calc(100% / 7);
+    padding: 4px;
+}
+
+/*FOOTER*/
+footer{ background-color: rgb(51, 49, 49);}
+.ContainerFooter{
+    width: 100%;
+    height: 100px;
 }
