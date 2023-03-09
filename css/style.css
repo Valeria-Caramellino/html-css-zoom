@@ -47,7 +47,16 @@ main{
     width: calc(100% / 7);
     padding: 4px;
 }
-
+.Relative{ position: relative;}
+.Absolut { position: absolute;}
+.vignetta{ 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3px;
+}
 /*FOOTER*/
 footer{ background-color: rgb(51, 49, 49);}
 .ContainerFooter{
