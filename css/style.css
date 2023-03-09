@@ -4,13 +4,18 @@
     margin: 0;
     box-sizing: border-box;
 }
-.whiteFont{
-    color: white;
-}
+.whiteFont{color: white;}
+.redFont{color: red;}
+
 .Flex{display: flex;}
 .FEndContent{justify-content: flex-end;}
 .FWrap{flex-wrap: wrap;}
 .FJcontent{justify-content: center;}
+.FJcontentB {justify-content: space-between;}
+.FAlingICenter {align-items: center;}
+.FDirectionC {flex-direction: column;}
+.FalignCStretch {align-content: stretch;}
+
 .w100 {width: 100%;}
 /*HEADER*/
 header{background-color: black;}
@@ -32,7 +37,7 @@ main{
 }
 .ContainerMain{
     width: 90%;
-    height: calc( 100vh - 170px );
+    height: calc( 100vh - 180px );
     margin: 0 auto;
     padding-bottom: 20px;
 }
@@ -48,4 +53,10 @@ footer{ background-color: rgb(51, 49, 49);}
 .ContainerFooter{
     width: 100%;
     height: 100px;
+}
+.MarginFooter{
+    margin: 4px;
+}
+.BOpacity1{
+    background-color: rgba(255, 255, 255, 0.3);
 }
