@@ -41,10 +41,10 @@ main{
     height: calc( 100vh - 180px );
     margin: 0 auto;
     padding-bottom: 20px;
+    overflow-y: scroll;
 }
 .BoxImg{
-    overflow: hidden;
-    height: calc(100% / 5 );
+    /*height: calc(100% / 5 );*/
     width: calc(100% / 7);
     padding: 4px;
 }
