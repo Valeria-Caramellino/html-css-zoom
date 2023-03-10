@@ -6,6 +6,7 @@
 }
 .whiteFont{color: white;}
 .redFont{color: red;}
+.GreenFont { color: green;}
 
 .Flex{display: flex;}
 .FEndContent{justify-content: flex-end;}
